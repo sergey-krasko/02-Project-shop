@@ -102,9 +102,10 @@
 }
 
 /* ТОВАРЫ */
-.goods-wrap {
+
+.goods {
     margin: 96px;
-}
+    }
 
 .goods-text-header-main {
     text-align: center;    
@@ -132,11 +133,53 @@
     width: 360px;
     background-color: #F8F8F8;
     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
-.goods-text-name {}
-.goods-text-description {}
-.goods-text-price {}
+.goods-text-name {
+    font-size: 13px;
+    line-height: 16px;
+    padding-left: 10px;
+}
+
+.goods-text-description {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    padding-left: 10px;
+}
+
+.goods-text-price {
+    font-size: 16px;
+    line-height: 19px;
+    color:#F16D7F;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+/* КНОПКА */
+.button-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.catalog-button {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #F26376;
+    background: #ffffff;    
+    padding: 14px 38px;
+    text-decoration: none;
+    border: 1px solid #FF6A6A;
+    /*box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);*/
+    /*border-radius: 10px;*/
+}
 
 
 /* ПОДВАЛ */
