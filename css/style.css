@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+    max-width: 1160px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+/* ГЛАВНОЕ МЕНЮ */
+.main-menu {
+    background: #222222; 
+    padding: 19px 0;
+}
+
+.main-menu-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu-left {
+
+}
+.main-menu-logo {
+    margin-right: 41px;
+}
+
+.main-menu-right{
+
+}
+.main-menu-item:not(:last-child) {
+    margin-right: 33px;
+}
+
+/* ИНФОРМАЦИЯ О МАГАЗИНЕ */
+.intro {
+    height: 764px;
+    background-color: #F1E4E6;  
+    margin-bottom: 50px;     
+}
+
+.intro-wrap {
+    height: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end;
+    background-image: url(../img/intro-man.png);
+    background-repeat: no-repeat;
+    background-position: -212px bottom;
+}
+
+.intro-text {
+    max-width: 377px;
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+}
+
+.intro-text-decor {
+    color: #F16D7F;
+}
+
+/* КАТЕГОРИИ ТОВАРОВ */
+.category-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.category-item {      
+    height: 260px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-item:not(:last-child){
+    width: 360px;
+    margin-bottom: 30px;
+}
+
+.category-text {
+    text-align: center;    
+}
+
+.category-men {
+    background-image: url(../img/category-men.png);
+}
+
+.category-women {
+    background-image: url(../img/category-women.png);
+}
+
+.category-kids {
+    background-image: url(../img/category-kids.png);
+}
+
+.category-accesories {
+    background-image: url(../img/category-accesories.png);
+    height: 130px;
+}
+
+/* ТОВАРЫ */
+.goods-wrap {
+    margin: 96px;
+}
+
+.goods-text-header-main {
+    text-align: center;    
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.goods-text-header {
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+    margin-top: 6px;
+    margin-bottom: 30px;
+}
+
+.goods-card {   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.goods-item {
+    height: 581px;
+    width: 360px;
+    background-color: #F8F8F8;
+    margin-top: 10px;
+}
+
+.goods-text-name {}
+.goods-text-description {}
+.goods-text-price {}
+
+
+/* ПОДВАЛ */
+.footer {
+    border: 4px black; 
+    background: #fc3; 
+    padding: 10px;
+    margin-top: 50px; 
+}
